@@ -26,7 +26,6 @@ quartz_map = data["collections"]["QUARTZ"]
 
 quartz = quartz_map["name"]
 quartz_max_level = quartz_map["maxLevel"]
-quartz_rewards = quartz_map["rewards"]
 
 print(
 "Informações da Coleção:\n"
