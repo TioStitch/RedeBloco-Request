@@ -11,3 +11,26 @@
 
 **Informações disponíveis**
 > (Coleções, Encantamentos e Entidades)
+
+**PYTHON**
+
+  **REQUISITOS**
+  - lib requests
+
+```python
+import requests;
+
+data = requests.get("https://tiostitch.github.io/RedeBloco-Request/collections.json").json();
+
+quartz_map = data["collections"]["QUARTZ"]
+
+quartz = quartz_map["name"]
+quartz_max_level = quartz_map["maxLevel"]
+quartz_rewards = quartz_map["rewards"]
+
+print(
+"Informações da Coleção:\n"
+"\nColeção:", quartz,
+"\nNível Máximo:", quartz_max_level,
+)
+```
