@@ -34,7 +34,7 @@ print(
 )
 ```
 
-🐍 **JAVA**
+☕ **JAVA**
 
   REQUISITOS:
   - lib para conexão HTTP
