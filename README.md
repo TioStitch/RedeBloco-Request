@@ -3,4 +3,7 @@
 > O estado atual dos arquivos permanece como o mais recente atualmente.
 
 🔩 **Por que decidimos criar isto**
-- Sabendo que há desenvolvedores que gostam de cooperar com o progresso e eficácia da jogabilidade de jogadores ou de si mesmos, decidimos criar esta válvula de escape para obter-se informações estáticas do Sky Block, abaixo há alguns exemplos de como deve-se utilizar estas informações.
+- Sabendo que há desenvolvedores que gostam de cooperar com o progresso e eficácia da jogabilidade de jogadores ou de si mesmos, decidimos criar esta válvula de escape para obter-se informações estáticas do Sky Block,
+
+🧪 **Direto ao código**
+- Abaixo há alguns exemplos de como deve-se utilizar estas informações.
