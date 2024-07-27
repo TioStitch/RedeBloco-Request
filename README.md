@@ -37,8 +37,43 @@ print(
 🐍 **JAVA**
 
   REQUISITOS:
-  - API de HTTP, no experimento usamos o OkHttp.
+  - lib para conexão HTTP
 
 ```java
-developing...
+    private static final String CONNECT_LINK = "https://tiostitch.github.io/RedeBloco-Request/collections.json";
+
+    public static void main(String[] args) throws IOException {
+
+        final URL url = new URL(CONNECT_LINK);
+        final HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+        connection.setRequestMethod("GET");
+
+        System.out.println(getContent(url));
+    }
+
+    private static String getContent(URL preparedUrl) {
+        try {
+            final InputStream inputStream = preparedUrl.openStream();
+            final BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, StandardCharsets.UTF_8));
+            return readContent(bufferedReader);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    private static String readContent(BufferedReader reader) {
+        try {
+            final StringBuilder content_builder = new StringBuilder();
+            String inputLine;
+
+            while ((inputLine = reader.readLine()) != null) {
+                content_builder.append(inputLine);
+                break;
+            }
+
+            return content_builder.toString();
+        } catch (IOException ignored) {
+            return "";
+        }
+    }
 ```
