@@ -9,5 +9,5 @@
 🧪 **Direto ao código**
 - Abaixo há alguns exemplos de como deve-se utilizar estas informações.
 
-- **Informações disponíveis**
+**Informações disponíveis**
 > (Coleções, Encantamentos e Entidades)
