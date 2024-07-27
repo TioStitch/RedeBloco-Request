@@ -15,7 +15,7 @@
 🐍 **PYTHON**
 
   REQUISITOS:
-  - lib requests
+  - lib requests (https://pypi.org/project/requests/)
 
 ```python
 import requests;
