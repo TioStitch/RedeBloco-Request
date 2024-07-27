@@ -31,6 +31,6 @@ quartz_rewards = quartz_map["rewards"]
 print(
 "Informações da Coleção:\n"
 "\nColeção:", quartz,
-"\nNível Máximo:", quartz_max_level,
+"\nNível Máximo:", quartz_max_level
 )
 ```
