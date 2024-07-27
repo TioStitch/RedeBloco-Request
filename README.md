@@ -9,4 +9,4 @@
 - Abaixo há alguns exemplos de como deve-se utilizar estas informações.
 
 - **Informações disponíveis**
-- (Coleções, Encantamentos e Entidades)
+  - (Coleções, Encantamentos e Entidades)
