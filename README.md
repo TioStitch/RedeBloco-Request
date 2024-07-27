@@ -33,3 +33,12 @@ print(
 "\nNível Máximo:", quartz_max_level
 )
 ```
+
+🐍 **JAVA**
+
+  REQUISITOS:
+  - API de HTTP, no experimento usamos o OkHttp.
+
+```java
+developing...
+```
