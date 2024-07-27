@@ -12,9 +12,9 @@
 **Informações disponíveis**
 > (Coleções, Encantamentos e Entidades)
 
-**PYTHON**
+🐍 **PYTHON**
 
-  **REQUISITOS**
+  REQUISITOS:
   - lib requests
 
 ```python
